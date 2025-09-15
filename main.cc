@@ -114,6 +114,7 @@ int main(int argc, char *argv[]) {
             std::cout.write(response.c_str(), len);
         }
     }
+    unload();
     FreeLibrary(m);
     return 0;
 }
