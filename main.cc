@@ -43,6 +43,7 @@ int main(int argc, char *argv[]) {
         }
     }
     if (argc < 3) {
+        FreeLibrary(m);
         std::cout << "true";
         return 0;
     }
